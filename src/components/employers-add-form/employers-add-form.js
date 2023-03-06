@@ -37,7 +37,7 @@ class EmployersAddForm extends Component{
     }
 
     render(){
-     const {name, salary, error}=this.state;
+    const {name, salary, error}=this.state;
     let validate ="form-control new-post-label";
      if(error){
         validate += ' red'
